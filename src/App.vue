@@ -3,18 +3,21 @@
   <main>
     <TheInfos/>
     <div class="linha"></div>
+    <TheProjetos/>
   </main>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue"
 import TheInfos from "./components/TheInfos.vue"
+import TheProjetos from "./components/TheProjetos.vue"
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheInfos
+    TheInfos,
+    TheProjetos
   }
 }
 </script>
