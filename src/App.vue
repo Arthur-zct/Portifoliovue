@@ -1,25 +1,47 @@
 <template>
   <TheHeader/>
+  <main>
+    <TheInfos/>
+    <div class="linha"></div>
+  </main>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue"
+import TheInfos from "./components/TheInfos.vue"
 
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    TheInfos
   }
 }
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+.linha {
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.349);
+  width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 </style>
