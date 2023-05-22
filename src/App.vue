@@ -47,4 +47,35 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 1450px) {
+  main {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1390px) {
+  main {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 912px) {
+  main {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 759px) {
+  main {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  main {
+    font-size: 13px;
+  }
+}
+
 </style>

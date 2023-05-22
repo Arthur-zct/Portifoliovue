@@ -1,30 +1,21 @@
 <template>
-    <div class="container">
+    <div class="content_container">
         <div class="Content">
+            
             <div class="Foto">
-                <img src="../assets/Ali-copia.png" alt="">
+                <a :href="Link">
+                    <img :src="Foto" alt="">
+                </a>
             </div>
             <div class="infos">
                 <button @click="Seta = !Seta">
                     <img v-if="Seta" src="../assets/seta-para-baixo.png" alt="seta">
                     <img v-else src="../assets/seta-para-cima.png" alt="seta">
                 </button>
-                <p :class="['text', {'sumir' : Seta}]">Copia da interface inicial do site da Aliexpress feito em react.</p>
+                <p :class="['text', {'sumir' : Seta}]">{{ Descricao }}</p>
             </div>
         </div>
 
-        <div class="Content">
-            <div class="Foto">
-                <img src="../assets/prev-temp.png" alt="">
-            </div>
-            <div class="infos">
-                <button @click="Seta2 = !Seta2">
-                    <img v-if="Seta2" src="../assets/seta-para-baixo.png" alt="seta">
-                    <img v-else src="../assets/seta-para-cima.png" alt="seta">
-                </button>
-                <p :class="['text', {'sumir' : Seta2}]">Site simples de previsão do tempo que pega as informações de uma api externa.</p>
-            </div>
-        </div>
         
     </div>
     
@@ -39,20 +30,25 @@ export default {
     data() {
         return {
             Seta: true,
-            Seta2: true
         }
     },
+    props: {
+        Foto: String,
+        Descricao: String,
+        Link: String
+    }
 }
 </script>
 
 
 
 <style scoped>
-.container {
-    width: 90vw;
-    margin: auto;
-    display: flex;
-    gap: 5em;
+* {
+    margin: 0;
+}
+.content_container {
+    height: 13em;
+    width: 26em;
 }
 
 .Foto {
@@ -68,7 +64,8 @@ export default {
 }
 
 img {
-    height: 100%;  
+    height: 100%; 
+    width: 100%; 
 }
 
 .infos {
@@ -77,7 +74,7 @@ img {
 }
 
 button {
-    height: 1em;
+    height: 1.5em;
     background-color: rgba(128, 128, 128, 0);
     border: none;
 }
@@ -92,7 +89,54 @@ button {
     display: none;
 }
 
+@media (max-width: 1300px) {
+    .Foto:hover {
+        height: 11em;
+        width: 24.32em;
+    }
 
+    .Foto {
+        height: 11em;
+        border: 1px solid rgba(128, 128, 128, 0.505);
+        width: 22.32em;
+    }
 
+    .text {
+    font-size: .9em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+    width: 22em;
+    padding: 3px;
+}
+}
+
+@media (max-width: 990px) {
+  .content_container {
+    width: 24em;
+  }
+}
+
+@media (max-width: 900px) {
+    .Foto {
+        height: 10em;
+        border: 1px solid rgba(128, 128, 128, 0.505);
+        width: 20.32em;
+    }
+
+    .content_container {
+        width: 20.6em;
+    }
+}
+
+@media (max-width: 280px) {
+    .Foto {
+        height: 10em;
+        border: 1px solid rgba(128, 128, 128, 0.505);
+        width: 20em;
+    }
+
+    .content_container {
+        width: 20.6em;
+    }
+}
 
 </style>

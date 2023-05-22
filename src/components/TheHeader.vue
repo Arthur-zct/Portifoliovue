@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 header {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-top: 1.1em;
 }
 
@@ -44,14 +44,28 @@ div {
 
 .Links {
   height: 30px;
-  text-align: center;
+  width: 8em;
 }
 .Links > a {
   height: 100%;
-  margin-left: 10px;
+  margin-left: 1em;
 }
 .Links > a > img {
   height: 100%;
+}
+
+@media (max-width: 1300px) {
+  .infos {
+    font-size: 1.5em;
+    width: 14em;
+  }
+}
+
+@media (max-width: 280px) {
+  .infos {
+    font-size: 1em;
+    width: 14em;
+  }
 }
 
 </style>
