@@ -8,9 +8,6 @@
             <Projeto :Foto="Projetos[3].Imagem" :Descricao="Projetos[3].Descri" :Link="Projetos[3].Link" />
             <Projeto :Foto="Projetos[4].Imagem" :Descricao="Projetos[4].Descri" :Link="Projetos[4].Link" />
         </div>
-        
-            
-        
     </section>
 </template>
 
