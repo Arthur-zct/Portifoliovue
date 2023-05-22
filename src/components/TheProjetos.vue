@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2>Projetos</h2>
+        <h2>Alguns Projetos</h2>
         <div class="container">
             <Projeto :Foto="Projetos[0].Imagem" :Descricao="Projetos[0].Descri" :Link="Projetos[0].Link" />
             <Projeto :Foto="Projetos[1].Imagem" :Descricao="Projetos[1].Descri" :Link="Projetos[1].Link" />
