@@ -6,11 +6,11 @@
     </div>
     
     <div class="Links">
-      <a href="">
-        <img src="../assets/github.png" alt="">
+      <a href="https://github.com/Arthur-zct">
+        <img src="../assets/github.png" alt="github icon">
       </a>
-      <a href="">
-        <img src="../assets/linkedin.png" alt="">
+      <a href="https://www.linkedin.com/in/arthur-da-cunha-aa2219256/">
+        <img src="../assets/linkedin.png" alt="linkedin icon">
       </a>
     </div>
   </header>
