@@ -27,7 +27,7 @@ export default {
     },
     data() {
         return {
-            Projetos: [{Imagem: Foto, Descri: "Site simples de previsão do tempo que pega as informações de uma api externa.", Link: "https://arthur-zct.github.io/Prev-temp/"}, {Imagem: Foto2, Descri: "Copia da interface inicial do site da Aliexpress feito em react.", Link: "https://arthur-zct.github.io/Ali-copia/"}, {Imagem: Foto3, Descri: "Copia da pagina inicial do WhatsApp feita com html e css puro.", Link: "https://arthur-zct.github.io/copia-da-interface-do-whatsapp-web/"}, {Imagem: Foto4, Descri: "Interface inicial de um site de compras feito com html e css.", Link: "https://arthur-zct.github.io/siteV/"}, {Imagem: Foto5, Descri: "Uma simples lista de tarefas.", Link: "https://arthur-zct.github.io/ListadTarefas/"}]
+            Projetos: [{Imagem: Foto, Descri: "Site simples de previsão do tempo que pega as informações de uma api externa.", Link: "https://previsaotemposite.netlify.app/"}, {Imagem: Foto2, Descri: "Copia da interface inicial do site da Aliexpress feito em react.", Link: "https://arthur-zct.github.io/Ali-copia/"}, {Imagem: Foto3, Descri: "Copia da pagina inicial do WhatsApp feita com html e css puro.", Link: "https://arthur-zct.github.io/copia-da-interface-do-whatsapp-web/"}, {Imagem: Foto4, Descri: "Interface inicial de um site de compras feito com html e css.", Link: "https://arthur-zct.github.io/siteV/"}, {Imagem: Foto5, Descri: "Uma simples lista de tarefas.", Link: "https://arthur-zct.github.io/ListadTarefas/"}]
         }
     }
 }
