@@ -13,7 +13,7 @@
             </div>
             <div :class="['sobretext', {'sumir' : Seta}]">
                 <p>
-                    No ano de 2021 eu conheci a programação pela primeira vez e logo me interessei por ela, parecia dificil mas interessante. Eu pesquisei e estudei um pouco mas a escola e o enem estavam ocupando muito do meu tempo e eu acabei deixando de lado, com o fim daquele ano e o começo de um novo eu voltei a ver coisas sobre programação e decidi que queria seguir este caminho, com isso eu ingressei em uma faculdade de Análise e desenvolvimento de sistemas e iniciei meus estudos na area com foco nas tecnologias para web. <br/> Eu sou um cara bem caseiro, gosto de filmes, séries, desenhos, mangás e jogos.
+                    No ano de 2021 eu conheci a programação pela primeira vez e logo me interessei por ela, parecia dificil mas interessante. Eu pesquisei e estudei um pouco, mas a escola e o ENEM estavam ocupando muito do meu tempo e eu acabei deixando de lado. Com o fim daquele ano e o começo de um novo eu voltei a ver coisas sobre programação e decidi que queria seguir este caminho; com isso ingressei em uma faculdade de Análise e Desenvolvimento de Sistemas e iniciei meus estudos na área com foco nas tecnologias para web. <br/> Eu sou um cara bem caseiro, gosto de filmes, séries, desenhos, mangás e jogos.
                 </p>  
             </div>
             
