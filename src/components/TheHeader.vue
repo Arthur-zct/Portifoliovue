@@ -2,7 +2,7 @@
   <header>
     <h1>Arthur Ivano</h1>
     <div class="infos">
-      <p>19 anos - Desenvolvedor web</p>
+      <p>21 anos - Desenvolvedor web</p>
     </div>
     
     <div class="Links">
