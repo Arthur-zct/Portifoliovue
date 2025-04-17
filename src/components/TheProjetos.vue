@@ -7,6 +7,7 @@
             <Projeto :Foto="Projetos[2].Imagem" :Descricao="Projetos[2].Descri" :Link="Projetos[2].Link" />
             <Projeto :Foto="Projetos[3].Imagem" :Descricao="Projetos[3].Descri" :Link="Projetos[3].Link" />
             <Projeto :Foto="Projetos[4].Imagem" :Descricao="Projetos[4].Descri" :Link="Projetos[4].Link" />
+            <Projeto :Foto="Projetos[5].Imagem" :Descricao="Projetos[5].Descri" :Link="Projetos[5].Link" />
         </div>
     </section>
 </template>
@@ -19,6 +20,7 @@ import Foto2 from '../assets/Ali-copia.png'
 import Foto3 from '../assets/zap-copia.png'
 import Foto4 from '../assets/Compras-htmcss.png'
 import Foto5 from '../assets/lista-tarefas.png'
+import Foto6 from  '../assets/listaTarefasNovo.png'
 
 export default {
     name: 'TheProjetos',
@@ -27,7 +29,7 @@ export default {
     },
     data() {
         return {
-            Projetos: [{Imagem: Foto, Descri: "Site simples de previsão do tempo que pega as informações de uma api externa.", Link: "https://previsaotemposite.netlify.app/"}, {Imagem: Foto2, Descri: "Copia da interface inicial do site da Aliexpress feito em react.", Link: "https://arthur-zct.github.io/Ali-copia/"}, {Imagem: Foto3, Descri: "Copia da pagina inicial do WhatsApp feita com html e css puro.", Link: "https://arthur-zct.github.io/copia-da-interface-do-whatsapp-web/"}, {Imagem: Foto4, Descri: "Interface inicial de um site de compras feito com html e css.", Link: "https://arthur-zct.github.io/siteV/"}, {Imagem: Foto5, Descri: "Uma simples lista de tarefas.", Link: "https://arthur-zct.github.io/ListadTarefas/"}]
+            Projetos: [{Imagem: Foto, Descri: "Site simples de previsão do tempo que pega as informações de uma api externa.", Link: "https://previsaotemposite.netlify.app/"}, {Imagem: Foto2, Descri: "Copia da interface inicial do site da Aliexpress feito em react.", Link: "https://arthur-zct.github.io/Ali-copia/"}, {Imagem: Foto3, Descri: "Copia da pagina inicial do WhatsApp feita com html e css puro.", Link: "https://arthur-zct.github.io/copia-da-interface-do-whatsapp-web/"}, {Imagem: Foto4, Descri: "Interface inicial de um site de compras feito com html e css.", Link: "https://arthur-zct.github.io/siteV/"}, {Imagem: Foto5, Descri: "Uma simples lista de tarefas.", Link: "https://arthur-zct.github.io/ListadTarefas/"}, {Imagem: Foto6, Descri: "Uma lista de tarefas mais completa e bem trabalhada.", Link: "https://listatarefas256.netlify.app/"}]
         }
     }
 }
