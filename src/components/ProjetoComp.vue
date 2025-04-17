@@ -84,10 +84,21 @@ button {
     border-bottom: 1px solid rgba(128, 128, 128, 0.329);
     width: 24.5em;
     padding: 3px;
+    max-height: 4.5em; /*3 linhas */
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 0.4s ease, max-height 0.4s ease, padding 0.4s ease, border 0.4s ease;
 }
+
 .sumir {
-    display: none;
+    opacity: 0;
+    max-height: 0;
+    padding: 0;
+    border: none;
+    /* texto "some" ficando minusculo e nao ocupando espaço */
 }
+
+
 
 @media (max-width: 1300px) {
     .Foto:hover {
